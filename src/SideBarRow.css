@@ -25,3 +25,12 @@
 .SideBarRow:hover > .sidebarrow__title{
     font-weight: bold;
 }
+.SideBarRow.selected {
+    background-color: lightgray;
+}
+.SideBarRow.selected > .sidebarrow__icon{
+    color: red;
+}
+.SideBarRow.selected > .sidebarrow__title{
+    font-weight: bold;
+}
